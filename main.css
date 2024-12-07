@@ -1,0 +1,52 @@
+/* See fonts/Roboto-Regular-LICENSE.txt for license */
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    margin:0; 
+    padding:0; 
+    background:#fff;
+    width: 100%;
+}
+
+.coloured-body {
+    background-color: #43483f; 
+    color: #cdd4c8;
+}
+
+.coloured-body a {
+    color: #39e90a;
+    text-decoration: none;
+}
+
+.app-store-icon {
+    width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    #page {
+        width: max(45%, 600px);
+        margin: auto;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #page {
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    .desktop-hidden {
+        display: none;
+    }
+}
